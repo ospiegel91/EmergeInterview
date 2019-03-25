@@ -5,15 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/ContinuousSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/ContinuousSound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/SoundFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/SoundFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/SporadicSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/SporadicSound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/logs/application.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/logs/application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/ContinuousSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/ContinuousSound.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SporadicSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SporadicSound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

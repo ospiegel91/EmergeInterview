@@ -39,6 +39,9 @@ public class SoundFactory {
 			
 			if (newSound.mIsConsequtiveEvent) {
 				System.out.println("---- IS CONSEQUTIVE !!!!! ");
+				BasicDBObject update = new BasicDBObject();
+				update.append("$set", new BasicDBObject().append("endTime", startTime));
+				newSound.updateContinuousSound(query, update);
 			} else {
 				System.out.println(" it WAS continuos at the factory! ");
 				newSound.setEndTime(startTime);

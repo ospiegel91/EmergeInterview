@@ -72,6 +72,23 @@ public class ContinuousSound extends Sound {
 		
 		
 	}
+
+	public void updateContinuousSound(BasicDBObject query, BasicDBObject update) {
+		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
+		mDB = mMongoClient.getDB("sounds");
+		
+		mContinuousCollection = mDB.getCollection("continuous");
+		mContinuousCollection.update(query, update);
+		
+		
+		DBCursor cursor = mContinuousCollection.find();
+		while (cursor.hasNext()) {
+			DBObject obj = cursor.next();
+			System.out.println("****** Document POST UPDATE is: ");
+			System.out.println(obj);
+		}
+		
+	}
 	
 	
 	
