@@ -3,45 +3,44 @@ package models;
 import java.util.Date;
 
 public class SoundFactory {
-	public Sound makeSound(NodeBean incomingSound) {
+	public void makeSound(NodeBean incomingSound) {
+		
+		String type = incomingSound.getSound();
+		String senderIP = incomingSound.getSenderIP();
+
+		Date date = new Date();
+		Long startTime = date.getTime();
+		
+		
 		String isContinuous = incomingSound.getIs_continuous();
 
 		if (isContinuous.equals("False")) {
-			System.out.println(" it was not continuos at the factory ");
+			System.out.println(" it was  *sporadic at the factory ");
 			SporadicSound newSound = null;
 			newSound = new SporadicSound();
 			newSound.setType(type);
 			newSound.setStartTime(startTime);
 			newSound.setSenderIP(senderIP);
-			return newSound;
+			newSound.insertDocToSporadicCollection();
+
 		} else {
-			Boolean isConsequtiveEvent = checkIfConsequtiveEvent(incomingSound);
-			if (isConsequtiveEvent) {
-				System.out.println(" it WAS continuos at the factory! ");
-				ContinuousSound newSound = null;
-				newSound = new ContinuousSound();
-				newSound.setType(type);
-				newSound.setStartTime(startTime);
-				newSound.setEndTime(startTime);
-				newSound.setSenderIP(senderIP);
-				return newSound;
+			ContinuousSound newSound = null;
+			newSound = new ContinuousSound();
+			newSound.setType(type);
+			newSound.setStartTime(startTime);
+			newSound.setSenderIP(senderIP);
+			
+			newSound.checkIfContinuousIsConsequtive();
+			
+			if (newSound.mIsConsequtiveEvent) {
+				System.out.println("---- IS CONSEQUTIVE !!!!! ");
 			} else {
 				System.out.println(" it WAS continuos at the factory! ");
-				ContinuousSound newSound = null;
-				newSound = new ContinuousSound();
-				newSound.setType(type);
-				newSound.setStartTime(startTime);
 				newSound.setEndTime(startTime);
-				newSound.setSenderIP(senderIP);
-				return newSound;
+				newSound.insertDocToContinuousCollection();
+
 			}
 		}
-	}
-
-	private Boolean checkIfConsequtiveEvent(NodeBean incomingSound) {
-		// must edit once MongoDb is set up
-		Boolean isConsequtive = false;
-		return isConsequtive;
 	}
 
 }

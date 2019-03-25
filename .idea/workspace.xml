@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d561371e-02c5-4333-b731-37ac0bdd03ef" name="Default" comment="" />
+    <list default="true" id="d561371e-02c5-4333-b731-37ac0bdd03ef" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/ContinuousSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/ContinuousSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/SoundFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/SoundFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/SporadicSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/SporadicSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/bin/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/bin/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/bin/models/ContinuousSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/bin/models/ContinuousSound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/bin/models/Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/bin/models/Sound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/bin/models/SoundFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/bin/models/SoundFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/bin/models/SporadicSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/bin/models/SporadicSound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/bin/routes" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/bin/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/javascript/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/javascript/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/javascript/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/javascript/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/ContinuousSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/ContinuousSound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/Sound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SporadicSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SporadicSound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/router/Routes.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/router/Routes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/routes" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/javascript/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/javascript/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/javascript/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/controllers/javascript/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/router/Routes$$anonfun$routes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/router/Routes$$anonfun$routes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/router/Routes.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes_managed/router/Routes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/controllers/routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/controllers/routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/router/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/router/Routes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/router/RoutesPrefix.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/routes/main/router/RoutesPrefix.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/playRoutes/$global/streams/op-cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/playRoutes/$global/streams/op-cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +70,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -38,6 +86,7 @@
     <option name="width" value="1192" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -134,7 +183,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />

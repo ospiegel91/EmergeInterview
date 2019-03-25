@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Ospiegel/Development/emergeInterview/app/sound_collector/conf/routes
-// @DATE:Sun Mar 24 23:31:56 IST 2019
+// @DATE:Mon Mar 25 11:20:22 IST 2019
 
 package controllers;
 

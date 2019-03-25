@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Ospiegel/Development/emergeInterview/app/sound_collector/conf/routes
-// @DATE:Sun Mar 24 23:31:56 IST 2019
+// @DATE:Mon Mar 25 11:20:22 IST 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -8,10 +8,10 @@ import play.api.routing.JavaScriptReverseRoute
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:6
+// @LINE:9
 package controllers.javascript {
 
-  // @LINE:6
+  // @LINE:13
   class ReverseHomeController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -35,16 +35,6 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "sound"})
-        }
-      """
-    )
-  
-    // @LINE:6
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.index",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
         }
       """
     )
