@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mscala.MatchError: org.apache.logging.log4j.simple.SimpleLoggerContext@176346d (of class org.apache.logging.log4j.simple.SimpleLoggerContext)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.MatchError: org.apache.logging.log4j.simple.SimpleLoggerContext@214a7824 (of class org.apache.logging.log4j.simple.SimpleLoggerContext)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.util.LogExchange.logger(LogExchange.scala:28)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LogManager$.defaultLogger(LogManager.scala:137)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LogManager$DefaultLogManager.apply(LogManager.scala:104)[0m

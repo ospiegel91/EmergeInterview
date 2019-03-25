@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d561371e-02c5-4333-b731-37ac0bdd03ef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/ContinuousSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/ContinuousSound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/models/SoundFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/models/SoundFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/app/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/app/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/ContinuousSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/ContinuousSound.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/models/SoundFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/scala-2.12/classes/controllers/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/sound_collector/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
