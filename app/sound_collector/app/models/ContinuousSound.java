@@ -2,6 +2,7 @@ package models;
 
 import com.mongodb.*;
 import java.util.Arrays;
+import java.util.List;
 
 import org.bson.Document;
 
@@ -33,15 +34,31 @@ public class ContinuousSound extends Sound {
 		}
 	}
 	
-	public Long getCountOfContinuousSounds() {
+	public Long getCountOfContinuousSounds(BasicDBObject query) {
 		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
 		mDB = mMongoClient.getDB("sounds");
 		
 		mContinuousCollection = mDB.getCollection("continuous");
 
-		Long count = mContinuousCollection.getCount();
+		Long count = mContinuousCollection.getCount(query);
 		System.out.println("----The count is :"+count);
 		return count;
+	}
+	
+	public List<DBObject> getContinuousSounds(BasicDBObject query) {
+		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
+		mDB = mMongoClient.getDB("sounds");
+		
+		mContinuousCollection = mDB.getCollection("continuous");
+		
+
+		List<DBObject> obj = mContinuousCollection.find(query).toArray();
+//		while (cursor.hasNext()) {
+//			DBObject obj = cursor.next();
+//			System.out.println("****** Document is: ");
+//			System.out.println(obj);
+//		}
+		return obj;
 	}
 	
 	public Long getEndTime() {

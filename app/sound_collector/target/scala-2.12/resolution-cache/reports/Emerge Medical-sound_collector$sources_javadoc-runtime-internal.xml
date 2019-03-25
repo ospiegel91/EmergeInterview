@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20190325121123"/>
+		date="20190325134941"/>
 	<dependencies>
 		<module organisation="org.mongodb.morphia" name="morphia">
 			<revision name="0.107" status="release" pubdate="20140304171357" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mongodb/morphia.git" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
@@ -15,10 +15,10 @@
 				<metadata-artifact status="no" details="" size="2823" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/ivy-0.107.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/morphia/morphia/0.107/morphia-0.107.pom"/>
 				<caller organisation="Emerge Medical" name="sound_collector$sources_javadoc" conf="compile, runtime-internal, runtime, optional" rev="0.107" rev-constraint-default="0.107" rev-constraint-dynamic="0.107" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="morphia" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="173834" time="2849" location="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/srcs/morphia-0.107-sources.jar">
+					<artifact name="morphia" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="173834" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/srcs/morphia-0.107-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/morphia/morphia/0.107/morphia-0.107-sources.jar"/>
 					</artifact>
-					<artifact name="morphia" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="655440" time="2642" location="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/docs/morphia-0.107-javadoc.jar">
+					<artifact name="morphia" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="655440" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/docs/morphia-0.107-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/morphia/morphia/0.107/morphia-0.107-javadoc.jar"/>
 					</artifact>
 				</artifacts>
@@ -267,10 +267,10 @@
 				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/ivy-3.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-sync/3.10.1/mongodb-driver-sync-3.10.1.pom"/>
 				<caller organisation="Emerge Medical" name="sound_collector$sources_javadoc" conf="compile, runtime-internal, runtime, optional" rev="3.10.1" rev-constraint-default="3.10.1" rev-constraint-dynamic="3.10.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="mongodb-driver-sync" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="97451" time="2784" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/srcs/mongodb-driver-sync-3.10.1-sources.jar">
+					<artifact name="mongodb-driver-sync" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="97451" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/srcs/mongodb-driver-sync-3.10.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-sync/3.10.1/mongodb-driver-sync-3.10.1-sources.jar"/>
 					</artifact>
-					<artifact name="mongodb-driver-sync" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="509375" time="2520" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/docs/mongodb-driver-sync-3.10.1-javadoc.jar">
+					<artifact name="mongodb-driver-sync" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="509375" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/docs/mongodb-driver-sync-3.10.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-sync/3.10.1/mongodb-driver-sync-3.10.1-javadoc.jar"/>
 					</artifact>
 				</artifacts>
@@ -282,10 +282,10 @@
 				<metadata-artifact status="no" details="" size="3388" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.10.1/mongo-java-driver-3.10.1.pom"/>
 				<caller organisation="Emerge Medical" name="sound_collector$sources_javadoc" conf="compile, runtime-internal, runtime, optional" rev="3.10.1" rev-constraint-default="3.10.1" rev-constraint-dynamic="3.10.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="mongo-java-driver" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3925694" time="13540" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/docs/mongo-java-driver-3.10.1-javadoc.jar">
+					<artifact name="mongo-java-driver" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3925694" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/docs/mongo-java-driver-3.10.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.10.1/mongo-java-driver-3.10.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="mongo-java-driver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1510308" time="2431" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-3.10.1-sources.jar">
+					<artifact name="mongo-java-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1510308" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-3.10.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.10.1/mongo-java-driver-3.10.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1013,10 +1013,10 @@
 				<metadata-artifact status="no" details="" size="3534" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/ivy-3.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/3.10.1/mongodb-driver-core-3.10.1.pom"/>
 				<caller organisation="Emerge Medical" name="sound_collector$sources_javadoc" conf="compile, runtime-internal, runtime, optional" rev="3.10.1" rev-constraint-default="3.10.1" rev-constraint-dynamic="3.10.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="mongodb-driver-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2158924" time="11657" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/docs/mongodb-driver-core-3.10.1-javadoc.jar">
+					<artifact name="mongodb-driver-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2158924" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/docs/mongodb-driver-core-3.10.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/3.10.1/mongodb-driver-core-3.10.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="mongodb-driver-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="850666" time="1738" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.10.1-sources.jar">
+					<artifact name="mongodb-driver-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="850666" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.10.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/3.10.1/mongodb-driver-core-3.10.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1028,10 +1028,10 @@
 				<metadata-artifact status="no" details="" size="2618" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/ivy-3.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/bson/3.10.1/bson-3.10.1.pom"/>
 				<caller organisation="Emerge Medical" name="sound_collector$sources_javadoc" conf="compile, runtime-internal, runtime, optional" rev="3.10.1" rev-constraint-default="3.10.1" rev-constraint-dynamic="3.10.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="bson" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1490654" time="6385" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/docs/bson-3.10.1-javadoc.jar">
+					<artifact name="bson" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1490654" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/docs/bson-3.10.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/bson/3.10.1/bson-3.10.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="bson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="381819" time="2496" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/srcs/bson-3.10.1-sources.jar">
+					<artifact name="bson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="381819" time="0" location="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/srcs/bson-3.10.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/bson/3.10.1/bson-3.10.1-sources.jar"/>
 					</artifact>
 				</artifacts>

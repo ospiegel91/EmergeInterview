@@ -4,7 +4,7 @@
 		module="sound_collector$sources_javadoc"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190325121123"
+		publication="20190325134941"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
