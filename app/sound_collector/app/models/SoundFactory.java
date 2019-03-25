@@ -2,6 +2,8 @@ package models;
 
 import java.util.Date;
 
+import com.mongodb.BasicDBObject;
+
 public class SoundFactory {
 	public void makeSound(NodeBean incomingSound) {
 		
@@ -10,7 +12,7 @@ public class SoundFactory {
 
 		Date date = new Date();
 		Long startTime = date.getTime();
-		
+		Long minuteAgoTime = startTime - (60*10000);
 		
 		String isContinuous = incomingSound.getIs_continuous();
 
@@ -30,7 +32,10 @@ public class SoundFactory {
 			newSound.setStartTime(startTime);
 			newSound.setSenderIP(senderIP);
 			
-			newSound.checkIfContinuousIsConsequtive();
+			BasicDBObject query = null;
+			query = new BasicDBObject("endTime", new BasicDBObject("$gt", minuteAgoTime).append("$lte", startTime)).append("type", type);
+			System.out.println(query);
+			newSound.checkIfContinuousIsConsequtive(query);
 			
 			if (newSound.mIsConsequtiveEvent) {
 				System.out.println("---- IS CONSEQUTIVE !!!!! ");

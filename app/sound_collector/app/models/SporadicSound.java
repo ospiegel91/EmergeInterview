@@ -16,7 +16,6 @@ public class SporadicSound extends Sound {
 	public void insertDocToSporadicCollection() {
 		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
 		mDB = mMongoClient.getDB("sounds");
-		System.out.println(mDB);
 		mContinuousCollection = mDB.getCollection("sporadic");
 		
 		DBObject document =  new BasicDBObject();
@@ -25,12 +24,6 @@ public class SporadicSound extends Sound {
 		document.put("senderIP", senderIP);
 		mContinuousCollection.insert(document);
 		
-		DBCursor cursor = mContinuousCollection.find();
-		while (cursor.hasNext()) {
-			DBObject obj = cursor.next();
-			System.out.println("****** Document is: ");
-			System.out.println(obj);
-		}
 	}
 	
 	public Long getCountOfSporadicSounds(BasicDBObject query) {

@@ -16,7 +16,6 @@ public class ContinuousSound extends Sound {
 	public void insertDocToContinuousCollection() {
 		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
 		mDB = mMongoClient.getDB("sounds");
-		System.out.println(mDB);
 		mContinuousCollection = mDB.getCollection("continuous");
 
 		DBObject document =  new BasicDBObject();
@@ -26,12 +25,6 @@ public class ContinuousSound extends Sound {
 		document.put("senderIP", senderIP);
 		mContinuousCollection.insert(document);
 		
-		DBCursor cursor = mContinuousCollection.find();
-		while (cursor.hasNext()) {
-			DBObject obj = cursor.next();
-			System.out.println("****** Document is: ");
-			System.out.println(obj);
-		}
 	}
 	
 	public Long getCountOfContinuousSounds(BasicDBObject query) {
@@ -48,16 +41,8 @@ public class ContinuousSound extends Sound {
 	public List<DBObject> getContinuousSounds(BasicDBObject query) {
 		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
 		mDB = mMongoClient.getDB("sounds");
-		
 		mContinuousCollection = mDB.getCollection("continuous");
-		
-
 		List<DBObject> obj = mContinuousCollection.find(query).toArray();
-//		while (cursor.hasNext()) {
-//			DBObject obj = cursor.next();
-//			System.out.println("****** Document is: ");
-//			System.out.println(obj);
-//		}
 		return obj;
 	}
 	
@@ -69,9 +54,22 @@ public class ContinuousSound extends Sound {
 		mEndTime = newTime;
 	}
 
-	public void checkIfContinuousIsConsequtive() {
-		// TODO Auto-generated method stub
-		mIsConsequtiveEvent = false;
+	public void checkIfContinuousIsConsequtive(BasicDBObject query) {
+		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
+		mDB = mMongoClient.getDB("sounds");
+		
+		mContinuousCollection = mDB.getCollection("continuous");
+
+		Long count = mContinuousCollection.getCount(query);
+		System.out.println("----The count in CONSEQUTIVE CHECK** is :"+count);
+		if (count>0) {
+			System.out.println("going to set mISConseq to true");
+			mIsConsequtiveEvent = true;
+		}else {
+			System.out.println("going to set mISConseq to false");
+			mIsConsequtiveEvent = false;
+		}
+		
 		
 	}
 	
