@@ -8,16 +8,6 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.12.8-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.2.2.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-enhancer/srcs/play-enhancer-1.2.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-enhancer/docs/play-enhancer-1.2.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.21.0-GA.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.javassist/javassist/srcs/javassist-3.21.0-GA-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.javassist/javassist/docs/javassist-3.21.0-GA-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/twirl-api_2.12/srcs/twirl-api_2.12-1.4.0-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/twirl-api_2.12/docs/twirl-api_2.12-1.4.0-javadoc.jar!/"/>
@@ -26,153 +16,6 @@
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.1.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.1.0-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-1.1.0-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-ebean_2.12/jars/play-ebean_2.12-4.0.6.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-ebean_2.12/srcs/play-ebean_2.12-4.0.6-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-ebean_2.12/docs/play-ebean_2.12-4.0.6-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean/srcs/ebean-10.4.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/io.ebean/ebean/docs/ebean-10.4.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.jetbrains/annotations/jars/annotations-13.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.jetbrains/annotations/srcs/annotations-13.0-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.jetbrains/annotations/docs/annotations-13.0-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/io.ebean/persistence-api/jars/persistence-api-2.2.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/io.ebean/persistence-api/srcs/persistence-api-2.2.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/io.ebean/persistence-api/docs/persistence-api-2.2.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-annotation/jars/ebean-annotation-2.3.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-annotation/srcs/ebean-annotation-2.3-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-annotation/docs/ebean-annotation-2.3-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-datasource-api/jars/avaje-datasource-api-1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-datasource-api/srcs/avaje-datasource-api-1.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-datasource-api/docs/avaje-datasource-api-1.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.26.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.26-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.26-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-datasource/jars/avaje-datasource-2.1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-datasource/srcs/avaje-datasource-2.1.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-datasource/docs/avaje-datasource-2.1.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-classpath-scanner-api/jars/avaje-classpath-scanner-api-2.2.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-classpath-scanner-api/srcs/avaje-classpath-scanner-api-2.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-classpath-scanner-api/docs/avaje-classpath-scanner-api-2.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-classpath-scanner/jars/avaje-classpath-scanner-2.2.2.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-classpath-scanner/srcs/avaje-classpath-scanner-2.2.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.avaje/avaje-classpath-scanner/docs/avaje-classpath-scanner-2.2.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-dbmigration/jars/ebean-dbmigration-10.1.10.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-dbmigration/srcs/ebean-dbmigration-10.1.10-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-dbmigration/docs/ebean-dbmigration-10.1.10-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.h2database/h2/jars/h2-1.4.193.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.h2database/h2/srcs/h2-1.4.193-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.h2database/h2/docs/h2-1.4.193-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.6.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.antlr/antlr4-runtime/srcs/antlr4-runtime-4.6-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.antlr/antlr4-runtime/docs/antlr4-runtime-4.6-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-agent/jars/ebean-agent-10.4.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-agent/srcs/ebean-agent-10.4.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/io.ebean/ebean-agent/docs/ebean-agent-10.4.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.12/jars/play-java-jdbc_2.12-2.6.6.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.12/srcs/play-java-jdbc_2.12-2.6.6-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.12/docs/play-java-jdbc_2.12-2.6.6-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc_2.12/jars/play-jdbc_2.12-2.6.6.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc_2.12/srcs/play-jdbc_2.12-2.6.6-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc_2.12/docs/play-jdbc_2.12-2.6.6-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.12/jars/play-jdbc-api_2.12-2.6.6.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.12/srcs/play-jdbc-api_2.12-2.6.6-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.12/docs/play-jdbc-api_2.12-2.6.6-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.25.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.25-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.slf4j/jul-to-slf4j/docs/jul-to-slf4j-1.7.25-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.25.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.25-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.slf4j/jcl-over-slf4j/docs/jcl-over-slf4j-1.7.25-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.12.8-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.typelevel/macro-compat_2.12/docs/macro-compat_2.12-1.1.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.google.j2objc/j2objc-annotations/jars/j2objc-annotations-1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.google.j2objc/j2objc-annotations/srcs/j2objc-annotations-1.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.google.j2objc/j2objc-annotations/docs/j2objc-annotations-1.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/javax.inject/javax.inject/docs/javax.inject-1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.jolbox/bonecp/srcs/bonecp-0.8.0.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.jolbox/bonecp/docs/bonecp-0.8.0.RELEASE-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.7.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.zaxxer/HikariCP/srcs/HikariCP-2.7.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.zaxxer/HikariCP/docs/HikariCP-2.7.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.googlecode.usc/jdbcdslog/jars/jdbcdslog-1.0.6.2.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.googlecode.usc/jdbcdslog/srcs/jdbcdslog-1.0.6.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.googlecode.usc/jdbcdslog/docs/jdbcdslog-1.0.6.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.5.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/net.jodah/typetools/srcs/typetools-0.5.0-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/net.jodah/typetools/docs/typetools-0.5.0-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.12/jars/play-jdbc-evolutions_2.12-2.6.6.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.12/srcs/play-jdbc-evolutions_2.12-2.6.6-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.12/docs/play-jdbc-evolutions_2.12-2.6.6-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-server_2.12/jars/play-server_2.12-2.7.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-server_2.12/srcs/play-server_2.12-2.7.0-sources.jar">
@@ -240,6 +83,21 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/docs/scala-parser-combinators_2.12-1.1.1-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.25-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.25.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.slf4j/jul-to-slf4j/docs/jul-to-slf4j-1.7.25-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.25.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.slf4j/jcl-over-slf4j/docs/jcl-over-slf4j-1.7.25-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.5.19.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.19-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/docs/akka-slf4j_2.12-2.5.19-javadoc.jar!/"/>
@@ -280,6 +138,16 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-functional_2.12/docs/play-functional_2.12-2.7.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.12.8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.typelevel/macro-compat_2.12/docs/macro-compat_2.12-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-0.1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/srcs/scala-collection-compat_2.12-0.1.1-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/docs/scala-collection-compat_2.12-0.1.1-javadoc.jar!/"/>
@@ -316,6 +184,11 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.google.errorprone/error_prone_annotations/docs/error_prone_annotations-2.2.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.google.j2objc/j2objc-annotations/jars/j2objc-annotations-1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.google.j2objc/j2objc-annotations/srcs/j2objc-annotations-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.google.j2objc/j2objc-annotations/docs/j2objc-annotations-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/jars/animal-sniffer-annotations-1.17.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/srcs/animal-sniffer-annotations-1.17-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/docs/animal-sniffer-annotations-1.17-javadoc.jar!/"/>
@@ -334,6 +207,12 @@
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/javax.activation/javax.activation-api/jars/javax.activation-api-1.2.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/javax.activation/javax.activation-api/srcs/javax.activation-api-1.2.0-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/javax.activation/javax.activation-api/docs/javax.activation-api-1.2.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/javax.inject/javax.inject/docs/javax.inject-1-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-logback_2.12/jars/play-logback_2.12-2.7.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-logback_2.12/srcs/play-logback_2.12-2.7.0-sources.jar">
@@ -374,6 +253,11 @@
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-java_2.12/jars/play-java_2.12-2.7.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-java_2.12/srcs/play-java_2.12-2.7.0-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-java_2.12/docs/play-java_2.12-2.7.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.5.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/net.jodah/typetools/srcs/typetools-0.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/net.jodah/typetools/docs/typetools-0.5.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.hibernate.validator/hibernate-validator/jars/hibernate-validator-6.0.14.Final.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.hibernate.validator/hibernate-validator/srcs/hibernate-validator-6.0.14.Final-sources.jar"/>
@@ -426,6 +310,31 @@
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.2.2.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/srcs/guice-assistedinject-4.2.2-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/docs/guice-assistedinject-4.2.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-3.10.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/srcs/mongo-java-driver-3.10.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.mongodb/mongo-java-driver/docs/mongo-java-driver-3.10.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/jars/mongodb-driver-sync-3.10.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/srcs/mongodb-driver-sync-3.10.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-sync/docs/mongodb-driver-sync-3.10.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/jars/bson-3.10.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/srcs/bson-3.10.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.mongodb/bson/docs/bson-3.10.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/jars/mongodb-driver-core-3.10.1.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.10.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.mongodb/mongodb-driver-core/docs/mongodb-driver-core-3.10.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/jars/morphia-0.107.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/srcs/morphia-0.107-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.mongodb.morphia/morphia/docs/morphia-0.107-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-test_2.12/jars/play-test_2.12-2.7.0.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/com.typesafe.play/play-test_2.12/srcs/play-test_2.12-2.7.0-sources.jar">
@@ -550,6 +459,11 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ospiegel/.ivy2/cache/org.seleniumhq.selenium/htmlunit-driver/jars/htmlunit-driver-2.33.3.jar" sourcepath="/Users/Ospiegel/.ivy2/cache/org.seleniumhq.selenium/htmlunit-driver/srcs/htmlunit-driver-2.33.3-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.seleniumhq.selenium/htmlunit-driver/docs/htmlunit-driver-2.33.3-javadoc.jar!/"/>
@@ -660,8 +574,8 @@
 			<attribute name="javadoc_location" value="jar:file:/Users/Ospiegel/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/docs/selenium-firefox-driver-3.141.59-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="target/scala-2.12/classes_managed"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/Ospiegel/Development/emergeInterview/app/sound_collector/mongo-java-driver-3.7.1.jar"/>
-	<classpathentry kind="lib" path="/Users/Ospiegel/Development/emergeInterview/app/sound_collector/mongodb-driver-sync-3.10.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Ospiegel/Development/emergeInterview/app/sound_collector/json-simple-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

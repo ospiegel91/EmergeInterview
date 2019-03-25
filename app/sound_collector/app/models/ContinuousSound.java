@@ -33,6 +33,17 @@ public class ContinuousSound extends Sound {
 		}
 	}
 	
+	public Long getCountOfContinuousSounds() {
+		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
+		mDB = mMongoClient.getDB("sounds");
+		
+		mContinuousCollection = mDB.getCollection("continuous");
+
+		Long count = mContinuousCollection.getCount();
+		System.out.println("----The count is :"+count);
+		return count;
+	}
+	
 	public Long getEndTime() {
 		return mEndTime;
 	}

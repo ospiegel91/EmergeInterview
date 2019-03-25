@@ -32,4 +32,15 @@ public class SporadicSound extends Sound {
 		}
 	}
 	
+	public Long getCountOfSporadicSounds() {
+		mMongoClient = new MongoClient(new ServerAddress("localhost", 27017));
+		mDB = mMongoClient.getDB("sounds");
+		
+		mContinuousCollection = mDB.getCollection("sporadic");
+
+		Long count = mContinuousCollection.getCount();
+		System.out.println("----The count is :"+count);
+		return count;
+	}
+	
 }

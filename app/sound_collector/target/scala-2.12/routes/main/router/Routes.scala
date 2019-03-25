@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Ospiegel/Development/emergeInterview/app/sound_collector/conf/routes
-// @DATE:Mon Mar 25 11:20:22 IST 2019
+// @DATE:Mon Mar 25 11:27:54 IST 2019
 
 package router
 
@@ -42,7 +42,7 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """sound""", """controllers.HomeController.api_post"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """query/""", """controllers.HomeController.api_query(queryType:String ?= "countAll", startTime:Integer ?= 0, endTime:Integer ?= 0)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """query/""", """controllers.HomeController.api_query(queryType:String ?= "countAll", startTime:Long ?= 0, endTime:Long ?= 0)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -91,12 +91,12 @@ class Routes(
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("query/")))
   )
   private[this] lazy val controllers_HomeController_api_query2_invoker = createInvoker(
-    HomeController_1.api_query(fakeValue[String], fakeValue[Integer], fakeValue[Integer]),
+    HomeController_1.api_query(fakeValue[String], fakeValue[Long], fakeValue[Long]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.HomeController",
       "api_query",
-      Seq(classOf[String], classOf[Integer], classOf[Integer]),
+      Seq(classOf[String], classOf[Long], classOf[Long]),
       "GET",
       this.prefix + """query/""",
       """""",
@@ -121,7 +121,7 @@ class Routes(
   
     // @LINE:16
     case controllers_HomeController_api_query2_route(params@_) =>
-      call(params.fromQuery[String]("queryType", Some("countAll")), params.fromQuery[Integer]("startTime", Some(0)), params.fromQuery[Integer]("endTime", Some(0))) { (queryType, startTime, endTime) =>
+      call(params.fromQuery[String]("queryType", Some("countAll")), params.fromQuery[Long]("startTime", Some(0)), params.fromQuery[Long]("endTime", Some(0))) { (queryType, startTime, endTime) =>
         controllers_HomeController_api_query2_invoker.call(HomeController_1.api_query(queryType, startTime, endTime))
       }
   }

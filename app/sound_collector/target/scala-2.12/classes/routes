@@ -13,4 +13,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 POST /sound					controllers.HomeController.api_post
 
 
-GET /query/				controllers.HomeController.api_query(queryType:String ?="countAll", startTime: Integer ?= 0, endTime: Integer ?= 0)
+GET /query/				controllers.HomeController.api_query(queryType:String ?="countAll", startTime: Long ?= 0, endTime: Long ?= 0)

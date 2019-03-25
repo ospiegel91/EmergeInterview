@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Ospiegel/Development/emergeInterview/app/sound_collector/conf/routes
-// @DATE:Mon Mar 25 11:20:22 IST 2019
+// @DATE:Mon Mar 25 11:27:54 IST 2019
 
 import play.api.mvc.Call
 
@@ -18,16 +18,16 @@ package controllers {
     }
 
   
-    // @LINE:16
-    def api_query(queryType:String = "countAll", startTime:Integer = 0, endTime:Integer = 0): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "query/" + play.core.routing.queryString(List(if(queryType == "countAll") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("queryType", queryType)), if(startTime == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Integer]].unbind("startTime", startTime)), if(endTime == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Integer]].unbind("endTime", endTime)))))
-    }
-  
     // @LINE:13
     def api_post(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "sound")
+    }
+  
+    // @LINE:16
+    def api_query(queryType:String = "countAll", startTime:Long = 0, endTime:Long = 0): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "query/" + play.core.routing.queryString(List(if(queryType == "countAll") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("queryType", queryType)), if(startTime == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Long]].unbind("startTime", startTime)), if(endTime == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Long]].unbind("endTime", endTime)))))
     }
   
   }
