@@ -48,7 +48,7 @@ def send_sound_to_server():
         data = {
                 'senderIP': MY_IP_ADDRESS,
                 'sound': ARR_OF_SOUNDS[rand_index]['sound_type'],
-                'is_continuous': ARR_OF_SOUNDS[rand_index]['is_continuous'],
+                'isContinuous': ARR_OF_SOUNDS[rand_index]['is_continuous'],
         }
         r = requests.post(url=API_ENDPOINT, json=data)
         pastebin_url = r.text

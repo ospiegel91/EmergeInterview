@@ -4,8 +4,7 @@ public class NodeBean {
 	
 	private String senderIP;
 	private String sound;
-    private String is_continuous;
-    
+    private String isContinuous;
     
 	public String getSenderIP() {
 		return senderIP;
@@ -23,12 +22,12 @@ public class NodeBean {
 		this.sound = sound;
 	}
 
-	public String getIs_continuous() {
-		return is_continuous;
+	public String getIsContinuous() {
+		return isContinuous;
 	}
 
-	public void setIs_continuous(String is_continuous) {
-		this.is_continuous = is_continuous;
+	public void setisContinuous(String isContinuous) {
+		this.isContinuous = isContinuous;
 	}
 
 
